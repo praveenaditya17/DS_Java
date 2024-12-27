@@ -50,7 +50,7 @@ public class ArrayArrange {
     	System.out.println(m);
     	System.out.println(j);
     	
-    	System.out.println("-----");
+    	System.out.println("-------");
     	String str[]= {"a","b","c"};
     	Arrays.stream(str).peek(System.out::print).count();
 	}
