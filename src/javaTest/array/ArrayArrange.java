@@ -26,6 +26,7 @@ public class ArrayArrange {
             i++;
         }
         //int j=0;
+        
         while(list2.size()>0){
             arr[i]=list2.get(0);
             list2.remove(0);
