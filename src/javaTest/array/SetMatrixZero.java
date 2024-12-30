@@ -6,6 +6,14 @@ class SetMatrixZero {
 		SetMatrixZero s= new SetMatrixZero();
 		
 		int mat[][]={{1,2,3},{4,0,6},{7,8,9}};
+		for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
+            	System.out.print(mat[i][j]);
+            	System.out.print(" ");
+            }
+            System.out.println("");
+        }
+		System.out.println("after set zero");
 		s.setMatrixZeroes(mat);
 		for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){

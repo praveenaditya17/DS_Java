@@ -2,6 +2,7 @@ package javaTest.array;
 
 import java.util.HashMap;
 
+//count sub array with sum k
 public class Subarrays_with_sum_K {
 
 	public static void main(String[] args) {
